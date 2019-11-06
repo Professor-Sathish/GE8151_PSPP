@@ -1,4 +1,12 @@
-#Is this possible to mutable list of elements
+#mutability
+myfavcolors=["red","yellow","orange"]
+print("Before updation list elements",myfavcolors)
+#myfavcolors[3]=”white” -error because index range is only 2
+myfavcolors[2]="white"
+print("After updation list elements",myfavcolors)
+
+#Immutable
+#Is this possible to Immutable list of elements
 myfavnumbers=[1,5,7,9,15,21]
 #mutability
 print("Before updation list elements",myfavnumbers)
